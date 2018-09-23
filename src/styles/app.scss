@@ -1,0 +1,21 @@
+@import "~@material/layout-grid/mdc-layout-grid";
+@import "~@material/textfield/mdc-text-field";
+@import "~@material/icon-button/mdc-icon-button";
+@import "~@material/button/mdc-button";
+@import "~@material/dialog/mdc-dialog";
+@import "~@material/toolbar/mdc-toolbar";
+@import "~@material/top-app-bar/mdc-top-app-bar";
+@import "~@material/card/mdc-card";
+
+@import "~@material/drawer/permanent/mdc-permanent-drawer.scss";
+
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding-top: 0.1px; // Prevent header h1 margin from pushing body down
+}
